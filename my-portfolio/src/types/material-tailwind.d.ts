@@ -5,4 +5,5 @@ declare module "@material-tailwind/react" {
     export const CardBody: any;
     export const Button: any;
     export const ThemeProvider: any
+    export const CardHeader: any
 }
