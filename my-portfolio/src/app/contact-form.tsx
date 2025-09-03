@@ -15,7 +15,8 @@ export function ContactForm() {
           variant="lead"
           className="w-5/12 !text-gray-500 mb-4 mt-2"
         >
-          Let&apos;s connect! You can reach me on social media or directly by email.
+          Let&apos;s connect! You can reach me on social media or directly by
+          email.
         </Typography>
 
         {/* Social Links */}
@@ -48,14 +49,17 @@ export function ContactForm() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconButton variant="text" color="pink">
+            <IconButton
+              variant="text"
+              className="text-pink-500 hover:bg-pink-50"
+            >
               <i className="fa-brands fa-instagram text-3xl" />
             </IconButton>
           </a>
 
           {/* Email */}
           <a href="mailto:mychaelesther99@gmail.com">
-            <IconButton variant="text" color="text-gray-900">
+            <IconButton variant="text" color="gray">
               <EnvelopeIcon className="h-7 w-7" />
             </IconButton>
           </a>
